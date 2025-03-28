@@ -27,7 +27,7 @@ Incluye operaciones CRUD sobre órdenes y productos, junto con validaciones, des
 
 ##  Endpoints disponibles
 
-### 🛒 Ordenes
+###  Ordenes
 - `POST /api/ordenes` → Crear orden de compra con productos
 - `GET /api/ordenes` → Listar órdenes (con paginación `?page=1&pageSize=10`)
 - `GET /api/ordenes/{id}` → Obtener orden específica
@@ -51,8 +51,8 @@ La lógica aplica descuentos en las órdenes:
 ---
 
 ## Para generar base de datos
-dotnet ef migrations add NombreDeLaMigracion
-dotnet ef database update
+- dotnet ef migrations add NombreDeLaMigracion
+- dotnet ef database update
 
 ---
 ##  Pruebas unitarias
